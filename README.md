@@ -10,7 +10,7 @@ This repository covers (Java) code examples for design patterns, each pattern wi
 - Adapter
 - Bridge
 - Composite
-- Decorator
+- Decorator (done)
 - Facade
 - Flyweight
 - Proxy
