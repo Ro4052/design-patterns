@@ -1,8 +1,8 @@
-package com.designpatterns.Observer.Original;
+package com.designpatterns.observer.Original;
 
-import com.designpatterns.Observer.Original.DoughnutShops.LargeShop;
-import com.designpatterns.Observer.Original.DoughnutShops.MediumShop;
-import com.designpatterns.Observer.Original.DoughnutShops.SmallShop;
+import com.designpatterns.observer.Original.DoughnutShops.LargeShop;
+import com.designpatterns.observer.Original.DoughnutShops.MediumShop;
+import com.designpatterns.observer.Original.DoughnutShops.SmallShop;
 
 public class Original {
     public static void run() {

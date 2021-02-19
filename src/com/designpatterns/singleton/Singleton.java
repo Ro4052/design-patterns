@@ -1,9 +1,9 @@
-package com.designpatterns.Observer;
+package com.designpatterns.singleton;
 
-import com.designpatterns.Observer.Original.Original;
-import com.designpatterns.Observer.Refactored.Refactored;
+import com.designpatterns.singleton.Original.Original;
+import com.designpatterns.singleton.Refactored.Refactored;
 
-public class Observer {
+public class Singleton {
     public static void main(String[] args) {
         System.out.println("----------");
         System.out.println("Original code");

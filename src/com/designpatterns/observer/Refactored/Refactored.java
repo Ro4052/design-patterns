@@ -1,8 +1,8 @@
-package com.designpatterns.Observer.Refactored;
+package com.designpatterns.observer.Refactored;
 
-import com.designpatterns.Observer.Refactored.DoughnutShops.LargeShop;
-import com.designpatterns.Observer.Refactored.DoughnutShops.MediumShop;
-import com.designpatterns.Observer.Refactored.DoughnutShops.SmallShop;
+import com.designpatterns.observer.Refactored.DoughnutShops.LargeShop;
+import com.designpatterns.observer.Refactored.DoughnutShops.MediumShop;
+import com.designpatterns.observer.Refactored.DoughnutShops.SmallShop;
 
 public class Refactored {
     public static void run() {

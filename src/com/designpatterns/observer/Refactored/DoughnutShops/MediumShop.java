@@ -1,4 +1,4 @@
-package com.designpatterns.Observer.Refactored.DoughnutShops;
+package com.designpatterns.observer.Refactored.DoughnutShops;
 
 import java.util.ArrayList;
 import java.util.List;

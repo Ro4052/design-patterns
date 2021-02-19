@@ -1,21 +1,19 @@
-package com.designpatterns.Observer.Refactored.DoughnutShops;
+package com.designpatterns.observer.Original.DoughnutShops;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class SmallShop implements DoughnutSubscriber {
+public class SmallShop {
     private Random random = new Random();
     private List<String> flavours = new ArrayList<>();
 
-    @Override
-    public void doughnutUpdate(List<String> doughnuts) {
-        String newFilling = doughnuts.get(doughnuts.size() - 1);
+    public void newDoughnutFilling(String filling) {
         System.out.println("\nSmall shop:");
-        System.out.println("New filling: " + newFilling);
+        System.out.println("New filling: " + filling);
         if (random.nextBoolean()) {
             System.out.println("Adding to menu...");
-            flavours.add(newFilling);
+            flavours.add(filling);
         } else {
             System.out.println("Not adding to menu...");
         }

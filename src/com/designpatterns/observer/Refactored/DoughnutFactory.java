@@ -1,6 +1,6 @@
-package com.designpatterns.Observer.Refactored;
+package com.designpatterns.observer.Refactored;
 
-import com.designpatterns.Observer.Refactored.DoughnutShops.DoughnutSubscriber;
+import com.designpatterns.observer.Refactored.DoughnutShops.DoughnutSubscriber;
 
 import java.util.ArrayList;
 import java.util.List;
