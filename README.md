@@ -7,7 +7,7 @@ This repository covers (Java) code examples for design patterns, each pattern wi
 - Builder
 - Prototype
 - Singleton (done)
-- Adapter
+- Adapter (done)
 - Bridge
 - Composite
 - Decorator (done)
