@@ -22,5 +22,5 @@ This repository covers (Java) code examples for design patterns, each pattern wi
 - Observer (done)
 - State
 - Strategy (done)
-- Template Method
+- Template Method (done)
 - Visitor
