@@ -2,11 +2,9 @@ package com.designpatterns.decorator.Refactored.IceCreamDecorators;
 
 import com.designpatterns.decorator.Refactored.IceCreamMaker;
 
-public class SprinklesDecorator implements IceCreamMaker {
-    private IceCreamMaker decoratedIceCreamMaker;
-
+public class SprinklesDecorator extends BaseIceCreamDecorator {
     public SprinklesDecorator(IceCreamMaker decoratedIceCreamMaker) {
-        this.decoratedIceCreamMaker = decoratedIceCreamMaker;
+        super(decoratedIceCreamMaker);
     }
 
     @Override

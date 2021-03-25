@@ -1,6 +1,6 @@
 package com.designpatterns.decorator.Refactored;
 
-public class BaseIceCreamMaker implements IceCreamMaker {
+public class PlainIceCreamMaker implements IceCreamMaker {
     private void getBowl() {
         System.out.println("\nGetting ice cream bowl...");
     }

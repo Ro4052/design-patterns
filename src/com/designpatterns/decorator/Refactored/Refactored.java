@@ -5,7 +5,7 @@ import com.designpatterns.decorator.Refactored.IceCreamDecorators.*;
 public class Refactored {
     public static void run() {
         // Make normal ice cream
-        IceCreamMaker normalIceCreamMaker = new BaseIceCreamMaker();
+        IceCreamMaker normalIceCreamMaker = new PlainIceCreamMaker();
         normalIceCreamMaker.make();
 
         // Make ice cream with sprinkles
