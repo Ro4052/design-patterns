@@ -20,7 +20,7 @@ This repository covers (Java) code examples for design patterns, each pattern wi
 - Mediator
 - Memento
 - Observer (done)
-- State
+- State (done)
 - Strategy (done)
 - Template Method (done)
 - Visitor
