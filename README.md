@@ -4,7 +4,7 @@ This repository covers (Java) code examples for design patterns, each pattern wi
 
 - Factory Method
 - Abstract Factory
-- Builder
+- Builder (done)
 - Prototype
 - Singleton (done)
 - Adapter (done)
