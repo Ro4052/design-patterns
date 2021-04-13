@@ -2,7 +2,7 @@
 
 This repository covers (Java) code examples for design patterns, each pattern will have a before and after. I aim to cover the following patterns:
 
-- Factory Method
+- Factory Method (done)
 - Abstract Factory
 - Builder (done)
 - Prototype
