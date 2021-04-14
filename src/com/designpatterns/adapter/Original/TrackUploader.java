@@ -3,7 +3,7 @@ package com.designpatterns.adapter.Original;
 import com.designpatterns.adapter.Original.StreamingServices.StreamingService;
 
 public class TrackUploader {
-    private StreamingService streamingService;
+    private final StreamingService streamingService;
 
     public TrackUploader(StreamingService streamingService) {
         this.streamingService = streamingService;
