@@ -5,7 +5,9 @@ import java.util.List;
 
 public class SingletonSandwichOrderService {
     private static SingletonSandwichOrderService instance;
-    List<String> sandwiches = new ArrayList<>();
+    private final List<String> sandwiches = new ArrayList<>();
+
+    private SingletonSandwichOrderService() { }
 
     public static SingletonSandwichOrderService getInstance() {
         if (instance == null) {
