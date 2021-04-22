@@ -12,4 +12,9 @@ public class BreakfastTeaMaker extends TeaMaker {
     protected void afterPouringHook() {
         System.out.println("Adding milk...");
     }
+
+    @Override
+    protected void serveTea() {
+        System.out.println("Serving tea and biscuits...");
+    }
 }

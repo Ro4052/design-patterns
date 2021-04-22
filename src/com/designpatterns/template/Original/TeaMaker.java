@@ -32,6 +32,14 @@ public class TeaMaker {
         }
     }
 
+    private void serveTea(String type) {
+        if (type.equals("Breakfast")) {
+            System.out.println("Serving tea and biscuits...");
+        } else {
+            System.out.println("Serving tea...");
+        }
+    }
+
     public void makeTea(String type) {
         boilWater(type);
         try {
@@ -41,6 +49,7 @@ public class TeaMaker {
         } finally {
             pourTea();
             afterPouringAction(type);
+            serveTea(type);
         }
     }
 }
