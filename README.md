@@ -13,7 +13,7 @@ This repository covers (Java) code examples for design patterns, each pattern wi
 - Decorator (done)
 - Facade
 - Flyweight
-- Proxy
+- Proxy (done)
 - Chain of Responsibility
 - Command
 - Iterator
