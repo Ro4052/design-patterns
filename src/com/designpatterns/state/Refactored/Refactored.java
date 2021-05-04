@@ -2,6 +2,8 @@ package com.designpatterns.state.Refactored;
 
 public class Refactored {
     public static void run() {
+        System.out.println("");
+
         // Create a parking meter
         SimpleParkingMeter parkingMeter = new SimpleParkingMeter();
 
