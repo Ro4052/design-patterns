@@ -1,7 +1,5 @@
 package com.designpatterns.builder.Original;
 
-import com.designpatterns.builder.Original.GARDEN_SIZE;
-
 public class House {
     public final int numberOfStories;
     public final int numberOfRooms;
