@@ -14,7 +14,7 @@ This repository covers (Java) code examples for design patterns, each pattern wi
 - Facade
 - Flyweight
 - Proxy (done)
-- Chain of Responsibility
+- Chain of Responsibility (done)
 - Command (done)
 - Iterator
 - Mediator
