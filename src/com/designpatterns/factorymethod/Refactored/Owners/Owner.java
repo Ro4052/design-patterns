@@ -7,10 +7,6 @@ public abstract class Owner {
 
     public void playWithPet() {
         Pet pet = createPet();
-        System.out.println("Play time!");
-        System.out.println("Speak:");
-        pet.speak();
-        System.out.println("Let's walk:");
-        pet.letsWalk();
+        pet.play();
     }
 }

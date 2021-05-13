@@ -1,13 +1,17 @@
 package com.designpatterns.factorymethod.Refactored.Pets;
 
 public class Dog implements Pet {
-    @Override
-    public void speak() {
-        System.out.println("Woof!");
+    private void bark() {
+        System.out.println("Bark: Woof!");
+    }
+
+    private void walkTime() {
+        System.out.println("Walk time: Yay! Walk!");
     }
 
     @Override
-    public void letsWalk() {
-        System.out.println("Yay! Walk!");
+    public void play() {
+        bark();
+        walkTime();
     }
 }
