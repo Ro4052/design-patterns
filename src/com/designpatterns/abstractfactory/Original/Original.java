@@ -6,9 +6,9 @@ public class Original {
     public static void run() {
         // Create a dog family
         System.out.println("\nDog:");
-        YoungPet puppy = new YoungPet("dog");
-        AdultPet dog = new AdultPet("dog");
-        ElderlyPet oldDog = new ElderlyPet("dog");
+        Puppy puppy = new Puppy();
+        Dog dog = new Dog();
+        OldDog oldDog = new OldDog();
 
         System.out.println("\nPuppy");
         puppy.play();
@@ -22,9 +22,9 @@ public class Original {
 
         // Create a cat family
         System.out.println("\nCat:");
-        YoungPet kitten = new YoungPet("cat");
-        AdultPet cat = new AdultPet("cat");
-        ElderlyPet oldCat = new ElderlyPet("cat");
+        Kitten kitten = new Kitten();
+        Cat cat = new Cat();
+        OldCat oldCat = new OldCat();
 
         System.out.println("\nKitten");
         kitten.play();
@@ -35,21 +35,5 @@ public class Original {
         System.out.println("\nOld cat");
         oldCat.stroke();
         oldCat.giveTreat();
-
-        // Create a random pet family
-        System.out.println("\nAardvark:");
-        YoungPet youngAardvark = new YoungPet("aardvark");
-        AdultPet aardvark = new AdultPet("aardvark");
-        ElderlyPet elderlyAardvark = new ElderlyPet("aardvark");
-
-        System.out.println("\nYoung aardvark");
-        youngAardvark.play();
-        youngAardvark.cuddle();
-        System.out.println("\nAardvark");
-        aardvark.speak();
-        aardvark.letsWalk();
-        System.out.println("\nElderly aardvark");
-        elderlyAardvark.stroke();
-        elderlyAardvark.giveTreat();
     }
 }

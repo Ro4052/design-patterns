@@ -1,12 +1,10 @@
-package com.designpatterns.abstractfactory.Refactored.Pets;
+package com.designpatterns.abstractfactory.Original.Pets;
 
-public class Cat implements AdultPet {
-    @Override
+public class Cat {
     public void speak() {
         System.out.println("Speak: Meow");
     }
 
-    @Override
     public void letsWalk() {
         System.out.println("Let's walk: I'm a cat, I don't walk...");
     }

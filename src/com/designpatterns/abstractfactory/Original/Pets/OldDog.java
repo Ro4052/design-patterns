@@ -1,12 +1,10 @@
-package com.designpatterns.abstractfactory.Refactored.Pets;
+package com.designpatterns.abstractfactory.Original.Pets;
 
-public class OldDog implements ElderlyPet {
-    @Override
+public class OldDog {
     public void stroke() {
         System.out.println("Stroke: I love you!");
     }
 
-    @Override
     public void giveTreat() {
         System.out.println("Give treat: Thanks!");
     }

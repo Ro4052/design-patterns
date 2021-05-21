@@ -1,12 +1,10 @@
-package com.designpatterns.abstractfactory.Refactored.Pets;
+package com.designpatterns.abstractfactory.Original.Pets;
 
-public class Kitten implements YoungPet {
-    @Override
+public class Kitten {
     public void play() {
         System.out.println("Play: I'll scratch you!");
     }
 
-    @Override
     public void cuddle() {
         System.out.println("Cuddle: What are you doing?");
     }
