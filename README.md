@@ -16,7 +16,7 @@ This repository covers (Java) code examples for design patterns, each pattern wi
 - Proxy (done)
 - Chain of Responsibility (done)
 - Command (done)
-- Iterator
+- Iterator (done)
 - Mediator
 - Memento
 - Observer (done)
