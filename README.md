@@ -9,7 +9,7 @@ This repository covers (Java) code examples for design patterns, each pattern wi
 - Singleton (done)
 - Adapter (done)
 - Bridge (done)
-- Composite
+- Composite (done)
 - Decorator (done)
 - Facade
 - Flyweight
