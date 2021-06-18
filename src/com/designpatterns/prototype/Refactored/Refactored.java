@@ -6,8 +6,8 @@ public class Refactored {
     public static void run() {
         // Create some "public" cats
         System.out.println("\n- Public cats -");
-        PublicCat publicCat1 = new PublicCat("ginger", 2);
-        PublicCat publicCat2 = new PublicCat("black", 7);
+        CloneableCat publicCat1 = new PublicCat("ginger", 2);
+        CloneableCat publicCat2 = new PublicCat("black", 7);
 
         System.out.println("\nCat 1:");
         publicCat1.speak();
@@ -19,8 +19,8 @@ public class Refactored {
 
         // Clone the "public" cats
         System.out.println("\n- Public cat clones -");
-        PublicCat publicCat1Clone = publicCat1.clone();
-        PublicCat publicCat2Clone = publicCat2.clone();
+        CloneableCat publicCat1Clone = publicCat1.clone();
+        CloneableCat publicCat2Clone = publicCat2.clone();
 
         System.out.println("\nCat 1 clone:");
         publicCat1Clone.speak();
@@ -32,8 +32,8 @@ public class Refactored {
 
         // Create some "private" cats
         System.out.println("\n- Private cats -");
-        PrivateCat privateCat1 = new PrivateCat("ginger", 2);
-        PrivateCat privateCat2 = new PrivateCat("black", 7);
+        CloneableCat privateCat1 = new PrivateCat("ginger", 2);
+        CloneableCat privateCat2 = new PrivateCat("black", 7);
 
         System.out.println("\nCat 1:");
         privateCat1.speak();
@@ -45,8 +45,8 @@ public class Refactored {
 
         // Clone the "private" cats
         System.out.println("\n- Private cat clones -");
-        PrivateCat privateCat1Clone = privateCat1.clone();
-        PrivateCat privateCat2Clone = privateCat2.clone();
+        CloneableCat privateCat1Clone = privateCat1.clone();
+        CloneableCat privateCat2Clone = privateCat2.clone();
 
         System.out.println("\nCat 1:");
         privateCat1Clone.speak();

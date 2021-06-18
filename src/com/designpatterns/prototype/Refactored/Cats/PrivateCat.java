@@ -1,6 +1,6 @@
 package com.designpatterns.prototype.Refactored.Cats;
 
-public class PrivateCat implements CloneableCat<PrivateCat> {
+public class PrivateCat implements CloneableCat {
     private final String colour;
     private final int age;
 
@@ -18,7 +18,7 @@ public class PrivateCat implements CloneableCat<PrivateCat> {
     }
 
     @Override
-    public PrivateCat clone() {
+    public CloneableCat clone() {
         return new PrivateCat(colour, age);
     }
 }
