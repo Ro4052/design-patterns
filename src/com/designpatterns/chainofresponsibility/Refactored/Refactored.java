@@ -3,6 +3,11 @@ package com.designpatterns.chainofresponsibility.Refactored;
 import com.designpatterns.chainofresponsibility.Refactored.Handlers.*;
 
 public class Refactored {
+    public static void handleRequest(PurchaseRequestHandler handler, double amount) {
+        System.out.println();
+        handler.handle(amount);
+    }
+
     public static void run() {
         // Make some handlers
         ManagerHandler managerHandler = new ManagerHandler();
@@ -10,17 +15,14 @@ public class Refactored {
         DirectorHandler directorHandler = new DirectorHandler();
 
         // Un-handled purchase request
-        System.out.println("");
         managerHandler.setNext(procurementHandler);
-        managerHandler.handle(817.60);
+        handleRequest(managerHandler, 817.60);
 
         // Rejected purchase request
-        System.out.println("");
         procurementHandler.setNext(directorHandler);
-        managerHandler.handle(1211.50);
+        handleRequest(managerHandler, 1211.50);
 
         // Accepted purchase request
-        System.out.println("");
-        managerHandler.handle(22.12);
+        handleRequest(managerHandler, 22.12);
     }
 }
