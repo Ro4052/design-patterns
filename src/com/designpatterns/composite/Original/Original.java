@@ -5,7 +5,7 @@ import com.designpatterns.composite.Original.Watercourses.*;
 import java.math.BigDecimal;
 
 public class Original {
-    public static Watercourse createWatercourseSystem() {
+    private static Watercourse createWatercourseSystem() {
         // Create watercourses
         River avon = new River("Avon", new BigDecimal(154));
         River frome = new River("Frome", new BigDecimal(32));
@@ -37,7 +37,7 @@ public class Original {
         return avon;
     }
 
-    public static BigDecimal getWatercourseSystemLength(Watercourse watercourse) {
+    private static BigDecimal getWatercourseSystemLength(Watercourse watercourse) {
         BigDecimal watercourseLength = watercourse.getWatercourseLength();
         if (watercourse instanceof River) {
             BigDecimal tributariesLength = ((River) watercourse).getTriburaties()
@@ -50,7 +50,7 @@ public class Original {
         return watercourseLength;
     }
 
-    public static void printTotalWatercourseSystemLength(Watercourse watercourse) {
+    private static void printTotalWatercourseSystemLength(Watercourse watercourse) {
         System.out.println("\nTotal watercourse system length: " + getWatercourseSystemLength(watercourse));
     }
 
