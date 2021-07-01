@@ -18,7 +18,7 @@ This repository covers (Java) code examples for design patterns, each pattern wi
 - Command (done)
 - Iterator (done)
 - Mediator (done)
-- Memento
+- Memento (done)
 - Observer (done)
 - State (done)
 - Strategy (done)
