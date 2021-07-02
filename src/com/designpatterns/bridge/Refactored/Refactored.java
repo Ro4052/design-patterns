@@ -7,28 +7,28 @@ public class Refactored {
     public static void run() {
         // Petrol car
         System.out.println("\nPetrol car:");
-        Car petrolCar = new Car(new PetrolEngine());
+        Vehicle petrolCar = new Car(new PetrolEngine());
         petrolCar.start();
         petrolCar.drive(50);
         petrolCar.steer(DIRECTION.LEFT);
 
         // Petrol motorbike
         System.out.println("\nPetrol motorbike:");
-        Motorbike petrolMotorbike = new Motorbike(new PetrolEngine());
+        Vehicle petrolMotorbike = new Motorbike(new PetrolEngine());
         petrolMotorbike.start();
         petrolMotorbike.drive(50);
         petrolMotorbike.steer(DIRECTION.LEFT);
 
         // Electric car
         System.out.println("\nElectric car:");
-        Car electricCar = new Car(new ElectricMotor());
+        Vehicle electricCar = new Car(new ElectricMotor());
         electricCar.start();
         electricCar.drive(100.5);
         electricCar.steer(DIRECTION.RIGHT);
 
         // Electric motorbike
         System.out.println("\nElectric motorbike:");
-        Motorbike electricMotorbike = new Motorbike(new ElectricMotor());
+        Vehicle electricMotorbike = new Motorbike(new ElectricMotor());
         electricMotorbike.start();
         electricMotorbike.drive(100.5);
         electricMotorbike.steer(DIRECTION.RIGHT);
