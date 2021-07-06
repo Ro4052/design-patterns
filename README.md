@@ -12,7 +12,7 @@ This repository covers (Java) code examples for design patterns, each pattern wi
 - Composite (done)
 - Decorator (done)
 - Facade (done)
-- Flyweight
+- Flyweight (done)
 - Proxy (done)
 - Chain of Responsibility (done)
 - Command (done)
